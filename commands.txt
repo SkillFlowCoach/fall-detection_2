@@ -1,0 +1,21 @@
+python3.9 -m venv mon_env
+mon_env\Scripts\activate
+pip install -r requirements.txt
+pip install pandas
+python app.py
+
+
+
+OPEN NEW TERMINAL
+
+python3.9 -m venv mon_env
+mon_env\Scripts\activate
+pip install PySide2
+pip install PyQt5
+pip install requests
+python test_api.py
+
+
+ENDPOINTS
+http://127.0.0.1:5000/process_video (video as argument)
+http://127.0.0.1:5000/process_image (image as argument)
